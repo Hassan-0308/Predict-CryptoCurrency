@@ -214,18 +214,40 @@
     <div class="container my-5">
 		<h2>Live Predictor</h2>
 		<form>
-			<div class="form-group">
-				<label for="dateInput">Date:</label>
-				<input type="date" class="form-control" id="dateInput" placeholder="Enter date">
-			</div>
-			<div class="form-group">
-				<label for="valueInput">Total Volume:</label>
-				<input type="volume" step="any" class="form-control" id="columeInput" placeholder="Enter total volume">
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+            <div class="form-group">
+              <label for="dateInput">Date:</label>
+              <input type="date" class="form-control" id="dateInput" placeholder="Enter date">
+            </div>
+            <div class="form-group">
+              <label for="valueInput">Total Volume:</label>
+              <input type="volume" step="any" class="form-control" id="columeInput" placeholder="Enter total volume">
+            </div>
+            <div class="form-group">
+              <label for="cryptoInput">Select cryptocurrency:</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="crypto" id="btc" value="BTC">
+                <label class="form-check-label" for="btc">
+                  BTC
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="crypto" id="eth" value="ETH">
+                <label class="form-check-label" for="eth">
+                  ETH
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="crypto" id="doge" value="DOGE">
+                <label class="form-check-label" for="doge">
+                  DOGE
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          
         
-				<label for="predictedInput">Predicted Price</label> 
+				<label for="my-5 predictedInput">Predicted Price</label> 
                 <!-- yahaan pr values dal dii -->
 				
 	</div>
